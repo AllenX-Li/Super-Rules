@@ -70,8 +70,8 @@ Manual = select, {{ getNodeNames(nodeList) }}
 YouTube = select, 🚀 Proxy, United States, Hong Kong, Taiwan, Singapore, Japan, Manual, DIRECT
 Telegram = select, 🚀 Proxy, United States, Hong Kong, Taiwan, Singapore, Japan, 🚀 Proxy, Manual, DIRECT
 GMedia = select, 🚀 Proxy, Netflix_Proxy, United States, Hong Kong, Taiwan, Singapore, Japan, Manual, 
-Netflix = select, Netflix_Proxy, United States, Hong Kong, Taiwan, Singapore, Manual, DIRECT
-HBO Max = select, {{ getNodeNames(nodeList, customFilters.HBOFilter) }}
+Netflix = select, Netflix_Proxy, United States, Hong Kong, Taiwan, Singapore, DIRECT
+HBO Max = select, HBO_Proxy, United States, Hong Kong, DIRECT
 # Apple CDN = select, DIRECT, Apple
 PayPal = select, DIRECT, 🚀 Proxy, United States, Hong Kong, Taiwan, Singapore, Japan, Manual
 Apple = select, DIRECT, 🚀 Proxy, United States, Hong Kong, Taiwan, Singapore, Japan, Manual
@@ -85,6 +85,7 @@ Game = select, DIRECT, 🚀 Proxy, United States, Hong Kong, Taiwan, Singapore, 
 Final = select, 🚀 Proxy, United States, Hong Kong, Taiwan, Singapore, Japan, Manual, DIRECT
 
 
+HBO_Proxy = select, {{ getNodeNames(nodeList, customFilters.HBOFilter) }}
 Netflix_Proxy = select, {{ getNodeNames(nodeList, netflixFilter) }}
 United States = url-test, {{ getNodeNames(nodeList, usFilter) }}, url = {{ proxyTestUrl }}, interval = 1200
 Hong Kong = url-test, {{ getNodeNames(nodeList, hkFilter) }}, url = {{ proxyTestUrl }}, interval = 1200
