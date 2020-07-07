@@ -63,29 +63,30 @@ keyword-filter = icloud,ocsp,logs,analytic,ads,imap,adthor,applovin,appnext,talk
 {{ getSurgeNodes(nodeList) }}
 
 [Proxy Group]
-🚀 Proxy = select, ♻️ Auto, Unite States, Hong Kong, Taiwan, Singapore, Japan, Manual, DIRECT
+🚀 Proxy = select, ♻️ Auto, United States, Hong Kong, Taiwan, Singapore, Japan, Manual, DIRECT
 ♻️ Auto = url-test, {{ getNodeNames(nodeList) }}, url = {{ proxyTestUrl }}, interval = 300
 Manual = select, {{ getNodeNames(nodeList) }}
 
-YouTube = select, 🚀 Proxy, Unite States, Hong Kong, Taiwan, Singapore, Japan, Manual, DIRECT
-Telegram = select, 🚀 Proxy, Unite States, Hong Kong, Taiwan, Singapore, Japan, 🚀 Proxy, Manual, DIRECT
-GMedia = select, 🚀 Proxy, Netflix_Proxy, Unite States, Hong Kong, Taiwan, Singapore, Japan, Manual, DIRECT
-Netflix = select, Netflix_Proxy, 🚀 Proxy, Unite States, Hong Kong, Taiwan, Singapore, Japan, Manual, DIRECT
+YouTube = select, 🚀 Proxy, United States, Hong Kong, Taiwan, Singapore, Japan, Manual, DIRECT
+Telegram = select, 🚀 Proxy, United States, Hong Kong, Taiwan, Singapore, Japan, 🚀 Proxy, Manual, DIRECT
+GMedia = select, 🚀 Proxy, Netflix_Proxy, United States, Hong Kong, Taiwan, Singapore, Japan, Manual, 
+Netflix = select, Netflix_Proxy, United States, Hong Kong, Taiwan, Singapore, Japan, Manual, DIRECT
+HBO Max = select, Netflix, United States, Hong Kong, Taiwan, Singapore, Japan, Manual, DIRECT
 # Apple CDN = select, DIRECT, Apple
-PayPal = select, DIRECT, 🚀 Proxy, Unite States, Hong Kong, Taiwan, Singapore, Japan, Manual
-Apple = select, DIRECT, 🚀 Proxy, Unite States, Hong Kong, Taiwan, Singapore, Japan, Manual
+PayPal = select, DIRECT, 🚀 Proxy, United States, Hong Kong, Taiwan, Singapore, Japan, Manual
+Apple = select, DIRECT, 🚀 Proxy, United States, Hong Kong, Taiwan, Singapore, Japan, Manual
 # Apple News = select, Apple, DIRECT
-Microsoft = select, DIRECT, 🚀 Proxy, Unite States, Hong Kong, Taiwan, Singapore, Japan, Manual
-# OneDrive = select, DIRECT, 🚀 Proxy, Unite States, Hong Kong, Taiwan, Singapore, Japan, Manual
-Game = select, DIRECT, 🚀 Proxy, Unite States, Hong Kong, Taiwan, Singapore, Japan, Manual
+Microsoft = select, DIRECT, 🚀 Proxy, United States, Hong Kong, Taiwan, Singapore, Japan, Manual
+# OneDrive = select, DIRECT, 🚀 Proxy, United States, Hong Kong, Taiwan, Singapore, Japan, Manual
+Game = select, DIRECT, 🚀 Proxy, United States, Hong Kong, Taiwan, Singapore, Japan, Manual
 # GDirect = select, DIRECT, 🚀 Proxy
-# CMedia = select, DIRECT, Unite States, Hong Kong, Taiwan, Singapore, Japan, Manual
+# CMedia = select, DIRECT, United States, Hong Kong, Taiwan, Singapore, Japan, Manual
 # AdBlock = select, REJECT, DIRECT
-Final = select, 🚀 Proxy, Unite States, Hong Kong, Taiwan, Singapore, Japan, Manual, DIRECT
+Final = select, 🚀 Proxy, United States, Hong Kong, Taiwan, Singapore, Japan, Manual, DIRECT
 
 
 Netflix_Proxy = select, {{ getNodeNames(nodeList, netflixFilter) }}
-Unite States = url-test, {{ getNodeNames(nodeList, usFilter) }}, url = {{ proxyTestUrl }}, interval = 1200
+United States = url-test, {{ getNodeNames(nodeList, usFilter) }}, url = {{ proxyTestUrl }}, interval = 1200
 Hong Kong = url-test, {{ getNodeNames(nodeList, hkFilter) }}, url = {{ proxyTestUrl }}, interval = 1200
 Taiwan = url-test, {{ getNodeNames(nodeList, taiwanFilter) }}, url = {{ proxyTestUrl }}, interval = 1200
 Singapore = url-test, {{ getNodeNames(nodeList, singaporeFilter) }}, url = {{ proxyTestUrl }}, interval = 1200
@@ -118,7 +119,7 @@ RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Pr
 RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/encoreTVB.list,GMedia
 RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Fox%20Now.list,GMedia
 RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Fox%2B.list,GMedia
-RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/HBO.list,GMedia
+RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/HBO.list, HBO Max
 RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Hulu%20Japan.list,GMedia
 RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Hulu.list,GMedia
 RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Japonx.list,GMedia

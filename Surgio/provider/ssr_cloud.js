@@ -10,5 +10,6 @@ module.exports = {
 
   customFilters: {
     providerFilter: utils.discardProviders(['回国线路 无法翻墙', '无试用节点，需要购买套餐后订阅节点', '用户']),
+    HBOFilter: utils.useKeywords(['HBO']),
   },
 };
