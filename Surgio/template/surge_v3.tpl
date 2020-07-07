@@ -78,7 +78,7 @@ Apple News = select, Apple, DIRECT
 Microsoft = select, DIRECT, 🚀 Proxy, Unite States, Hong Kong, Taiwan, Singapore, Japan, Manual
 # OneDrive = select, DIRECT, 🚀 Proxy, Unite States, Hong Kong, Taiwan, Singapore, Japan, Manual
 Game = select, DIRECT, 🚀 Proxy, Unite States, Hong Kong, Taiwan, Singapore, Japan, Manual
-GDirect = select, DIRECT, 🚀 Proxy
+# GDirect = select, DIRECT, 🚀 Proxy
 CMedia = select, DIRECT, Unite States, Hong Kong, Taiwan, Singapore, Japan, Manual
 AdBlock = select, REJECT, DIRECT
 Final = select, 🚀 Proxy, Unite States, Hong Kong, Taiwan, Singapore, Japan, Manual, DIRECT
@@ -95,16 +95,16 @@ Japan = url-test, {{ getNodeNames(nodeList, japanFilter) }}, url = {{ proxyTestU
 [Rule]
 RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Reject.list,AdBlock
 
-RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Special.list,GDirect
+RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Special.list, DIRECT
 
 RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Netflix.list,Netflix
 
-RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Bilibili.list,CMedia
-RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/iQiyi.list,CMedia
-RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Letv.list,CMedia
-RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/MOO.list,CMedia
-RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Tencent%20Video.list,CMedia
-RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Youku.list,CMedia
+RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Bilibili.list, DIRECT
+RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/iQiyi.list, DIRECT
+RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Letv.list, DIRECT
+RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/MOO.list, DIRECT
+RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Tencent%20Video.list, DIRECT
+RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Youku.list, DIRECT
 
 RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/ABC.list,GMedia
 RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Abema%20TV.list,GMedia
@@ -143,7 +143,7 @@ RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Pr
 # RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Netease%20Music.list,Netease Music
 
 RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Proxy.list,🚀 Proxy
-RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Domestic.list,CMedia
+RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Domestic.list, DIRECT
 RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Apple.list,Apple
 
 
