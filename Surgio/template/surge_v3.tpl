@@ -74,13 +74,13 @@ Netflix = select, Netflix_Proxy, 🚀 Proxy, Unite States, Hong Kong, Taiwan, Si
 # Apple CDN = select, DIRECT, Apple
 PayPal = select, DIRECT, 🚀 Proxy, Unite States, Hong Kong, Taiwan, Singapore, Japan, Manual
 Apple = select, DIRECT, 🚀 Proxy, Unite States, Hong Kong, Taiwan, Singapore, Japan, Manual
-Apple News = select, Apple, DIRECT
+# Apple News = select, Apple, DIRECT
 Microsoft = select, DIRECT, 🚀 Proxy, Unite States, Hong Kong, Taiwan, Singapore, Japan, Manual
 # OneDrive = select, DIRECT, 🚀 Proxy, Unite States, Hong Kong, Taiwan, Singapore, Japan, Manual
 Game = select, DIRECT, 🚀 Proxy, Unite States, Hong Kong, Taiwan, Singapore, Japan, Manual
 # GDirect = select, DIRECT, 🚀 Proxy
-CMedia = select, DIRECT, Unite States, Hong Kong, Taiwan, Singapore, Japan, Manual
-AdBlock = select, REJECT, DIRECT
+# CMedia = select, DIRECT, Unite States, Hong Kong, Taiwan, Singapore, Japan, Manual
+# AdBlock = select, REJECT, DIRECT
 Final = select, 🚀 Proxy, Unite States, Hong Kong, Taiwan, Singapore, Japan, Manual, DIRECT
 
 
@@ -93,7 +93,7 @@ Japan = url-test, {{ getNodeNames(nodeList, japanFilter) }}, url = {{ proxyTestU
 
 
 [Rule]
-RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Reject.list,AdBlock
+RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Reject.list, REJECT
 
 RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Special.list, DIRECT
 
@@ -109,7 +109,7 @@ RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Pr
 RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/ABC.list,GMedia
 RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Abema%20TV.list,GMedia
 RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Amazon.list,GMedia
-RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Apple%20News.list,Apple News
+RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Apple%20News.list, Apple
 RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Apple%20TV.list,GMedia
 RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Bahamut.list,GMedia
 RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/BBC%20iPlayer.list,GMedia
