@@ -70,8 +70,8 @@ Manual = select, {{ getNodeNames(nodeList) }}
 YouTube = select, 🚀 Proxy, United States, Hong Kong, Taiwan, Singapore, Japan, Manual, DIRECT
 Telegram = select, 🚀 Proxy, United States, Hong Kong, Taiwan, Singapore, Japan, 🚀 Proxy, Manual, DIRECT
 GMedia = select, 🚀 Proxy, Netflix_Proxy, United States, Hong Kong, Taiwan, Singapore, Japan, Manual, 
-Netflix = select, Netflix_Proxy, United States, Hong Kong, Taiwan, Singapore, DIRECT
 HBO Max = select, HBO_Proxy, United States, Hong Kong, DIRECT
+Netflix = select, Netflix_Proxy, United States, Hong Kong, Taiwan, Singapore, DIRECT
 # Apple CDN = select, DIRECT, Apple
 PayPal = select, DIRECT, 🚀 Proxy, United States, Hong Kong, Taiwan, Singapore, Japan, Manual
 Apple = select, DIRECT, 🚀 Proxy, United States, Hong Kong, Taiwan, Singapore, Japan, Manual
@@ -144,9 +144,11 @@ RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Pr
 RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Microsoft.list,Microsoft
 # RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Netease%20Music.list,Netease Music
 
+
+RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Apple.list,Apple
 RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Proxy.list,🚀 Proxy
 RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Domestic.list, DIRECT
-RULE-SET,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Apple.list,Apple
+
 
 
 # Rulesets
