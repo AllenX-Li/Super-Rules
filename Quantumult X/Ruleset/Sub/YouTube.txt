@@ -1,6 +1,13 @@
 # > YouTube
-user-agent, com.google.ios.youtube*, Global
-user-agent, YouTube*, Global
-host-suffix, googlevideo.com, Global
-host-suffix, youtube.com, Global
 host, youtubei.googleapis.com, Global
+USER-AGENT,*youtube*,📹 油管视频
+USER-AGENT,YouTube*,📹 油管视频
+USER-AGENT,com.google.ios.youtube*,📹 油管视频
+DOMAIN-KEYWORD,youtube,📹 油管视频
+DOMAIN,youtubei.googleapis.com,📹 油管视频
+DOMAIN,yt3.ggpht.com,📹 油管视频
+DOMAIN-SUFFIX,googlevideo.com,📹 油管视频
+DOMAIN-SUFFIX,gvt2.com,📹 油管视频
+DOMAIN-SUFFIX,youtu.be,📹 油管视频
+DOMAIN-SUFFIX,youtube.com,📹 油管视频
+DOMAIN-SUFFIX,ytimg.com,📹 油管视频
