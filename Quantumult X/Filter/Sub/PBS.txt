@@ -1,3 +1,0 @@
-# > PBS
-user-agent, PBS*, Global
-host-suffix, pbs.org, Global

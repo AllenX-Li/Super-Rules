@@ -1,4 +1,0 @@
-# > Deezer
-user-agent, Deezer*, Global
-host-suffix, deezer.com, Global
-host-suffix, dzcdn.net, Global
