@@ -19,6 +19,10 @@ DOMAIN,updates-http.cdn-apple.com
 DOMAIN-SUFFIX,ls.apple.com
 DOMAIN-SUFFIX,mzstatic.com
 
+# > Adobe Lightroom
+DOMAIN-SUFFIX,storage.adbephotos.com
+DOMAIN-SUFFIX,photos.adobe.io
+
 # > Google
 DOMAIN-KEYWORD,mtalk.google.com
 DOMAIN,safebrowsing.googleapis.com
