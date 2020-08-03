@@ -20,9 +20,9 @@ DOMAIN-SUFFIX,ls.apple.com
 DOMAIN-SUFFIX,mzstatic.com
 
 # > Adobe Lightroom
-DOMAIN-SUFFIX,storage.adbephotos.com
-DOMAIN-SUFFIX,photos.adobe.io
-DOMAIN-SUFFIX,cdn.cp.adobe.io
+DOMAIN-SUFFIX,adbephotos.com
+DOMAIN,photos.adobe.io
+DOMAIN,cdn.cp.adobe.io
 
 # > Google
 DOMAIN-KEYWORD,mtalk.google.com
