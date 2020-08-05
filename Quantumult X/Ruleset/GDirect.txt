@@ -23,3 +23,5 @@ DOMAIN-SUFFIX,phicomm.me,🎯 全球直连
 DOMAIN-SUFFIX,routerlogin.com,🎯 全球直连
 DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
 DOMAIN-SUFFIX,zte.home,🎯 全球直连
+DOMAIN-SUFFIX,adbephotos.com,🎯 全球直连
+DOMAIN-SUFFIX,adobe.io,🎯 全球直连
