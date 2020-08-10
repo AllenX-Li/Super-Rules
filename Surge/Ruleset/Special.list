@@ -22,6 +22,7 @@ DOMAIN-SUFFIX,mzstatic.com
 # > Adobe Lightroom
 DOMAIN-SUFFIX,adbephotos.com
 DOMAIN-SUFFIX,adobe.io
+DOMAIN-SUFFIX,adobelogin.com
 
 # > Google
 DOMAIN-KEYWORD,mtalk.google.com
