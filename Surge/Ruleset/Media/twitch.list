@@ -1,1 +1,4 @@
+USER-AGENT, *twitch*
 DOMAIN-SUFFIX, twitch.tv
+DOMAIN-SUFFIX, ttvnw.net
+DOMAIN, pubsub-edge.twitch.tv
