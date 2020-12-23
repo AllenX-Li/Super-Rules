@@ -1,6 +1,5 @@
-payload:
-  - DOMAIN, checkip.synology.com, DIRECR
-  - DOMAIN, checkipv6.synology.com, DIRECR
-  - DOMAIN, checkport.synology.com, DIRECR
-  - DOMAIN, ddns.synology.com, DIRECR
-  - DOMAIN, account.synology.com, DIRECR
+checkip.synology.com
+checkipv6.synology.com
+checkport.synology.com
+ddns.synology.com
+account.synology.com
