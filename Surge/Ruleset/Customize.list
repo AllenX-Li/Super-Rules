@@ -1,0 +1,10 @@
+DOMAIN, asu.instructure.com, 🚀 Proxy
+DOMAIN-SUFFIX, asu.edu, 🚀 Proxy
+DOMAIN-SUFFIX, inscloudgate.net, 🚀 Proxy
+DOMAIN-SUFFIX, ally.ac, 🚀 Proxy
+
+DOMAIN, api.leetcode-cn.com, REJECT
+DOMAIN, assets.leetcode-cn.com, REJECT
+DOMAIN-SUFFIX, losadhwselfff2332dasd.xyz, 🚀 Proxy
+
+PROCESS-NAME,/Applications/iTerm.app/Contents/MacOS/iTerm2, 🚀 Proxy
